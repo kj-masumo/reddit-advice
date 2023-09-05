@@ -13,3 +13,10 @@ Using trial-and-error, we found that the most distinct groupings appeared for LD
 Our work was limited by the fact that we only collected English posts and posts from Reddit. Other online career advice-giving communities might operate in different ways and posts written in English might also have distinct characteristics that don't hold true across other languages and cultures. We were also limited by the way that we decided to categorize "good" advice. Without the time and resources to manually code our comment data as "good" and "bad" advice, we were only able to use the community upvote score as a response variable for our predictive models. This could introduce problems, as "good" advice is not necessarily upvoted by the community, and things that aren't "good" advice might be upvoted by the community.
 
 Our future work would start by addressing some of these limitations. We could hire or manually encode "good" advice comments in our dataset. We would also diversify our dataset by finding representative posts from forums other than Reddit and in languages other than English. Our future work would also look into actionable recommendations for employees and employers. Our research here found that marginalized people often turn to these communities seeking advice that they might not have access to locally, but this project didn't investigate ways to actually use this information to further help these people. Future work would address this.
+
+## Files
+* post_collection.ipynb: This notebook outlines the steps we took to collect the posts from Reddit that we used in our dataset
+* comment_collection.ipynb: This notebook outlines the steps we took to extract the comments from the posts that we collected for our dataset
+* comment_cleaning_EDA.ipynb: This notebook contains the cleaning steps that we applied to our data. It also contains the exploratory data analysis we conducted on our data
+* LDA_topic_modeling.ipynb: This notebook contains the steps we took for our LDA topic modeling
+* advice_models.ipynb: This notebook contains the steps we took to create our predictive Naive Bayes and Logistic Regression models to predict "good" advice
